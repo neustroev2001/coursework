@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style_repeat.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <script src="for_js.js"></script>
+    <meta charset="UTF-8">
+  <title>About Us</title>
+    <body bgcolor="#708090">
+<style>
+
+
+html {
+  box-sizing: border-box;
+}
+body{
+overflow-x: hidden;
+}
+
+a{
+text-decoration: none;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 60px;
+  text-align: center;
+  background-color: white;
+  color: black;
+    font-family: "Comic Sans MS";
+}
+.center {
+    width: 1000px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    background: #FFFFFF; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+
+   }
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
+    -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;}
+.center1:hover {
+-webkit-filter: grayscale(100%);
+}
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: cadetblue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+
+    <div class="wrapper_head">
+
+        <div class="whole_menu_div">
+
+          <nav class="menu_ul">
+            <ul class="memu_ul_list">
+              <li class="menu_ul_li"> <a href="index.html" class="menu_link"><i class="fa fa-home fa-fw"></i></a></li>
+              <li class="menu_ul_li"> <a href="index.html" class="menu_link">Car Showroom ALL INN</a> </li>
+                 <li class="menu_ul_li"> <a href="audi.html" class="menu_link">Audi</a> </li>
+                 <li class="menu_ul_li"> <a href="bmw.html" class="menu_link">BMW</a> </li>
+                 <li class="menu_ul_li"> <a href="infiniti.html" class="menu_link">Infiniti</a> </li>
+              <li class="menu_ul_li"> <a href="rental.html" class="menu_link">Rent a Car</a> </li>
+              <li class="menu_ul_li"> <a href="soon.html" class="menu_link">Soon</a> </li>
+                <li class="menu_ul_li"> <a href="about.html" class="menu_link">About Us</a> </li>
+            </ul>
+          </nav>
+
+        <div class="burger_wrapper" onclick="func()">
+          <div class="burger_bar"></div>
+        </div>
+        </div>
+        <div style="height:20px;opacity: 100%"></div>
+        <div style="position:relative">
+            <div style="position:absolute; bottom:0px; width:100%;opacity: 100%"></div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="center">
+            <div class="about-section">
+                <h1 style="margin-top:-50px;font-size: 50px;font-family:Comic Sans MS;font-weight:normal;line-height: 1.35;letter-spacing: .05em;"> About Our Company</h1>
+                <img src="autosalon.jpg" class="center1">
+                <h2 style="font-family:Comic Sans MS;font-weight:normal;line-height: 1.35;letter-spacing: .05em;">Our company is always ready to offer you a wide range of services on favorable terms for servicing trucks, as well as an individual approach to each client! <br>
+                    We are always ready to cooperate with both organizations and individuals. <br>
+                    If you contact our company, you will find skill, responsibility and professionalism in the field of truck transport service. <br>
+                    Our company uses only the latest high-tech equipment and high-quality materials for repairs of any complexity. <br>
+                    We also provide guarantees for the work performed.</h2>
+            </div>
+            <h1 style="margin-top:-50px;text-align:center;font-size: 50px;font-family:Comic Sans MS;font-weight:normal;line-height: 1.35;letter-spacing: .05em;">Our Team</h1>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="IMG_0033.jpg" alt="Leonid" style="width:100%">
+                        <div class="container">
+                            <h2>Leonid Neustroev</h2>
+                            <p class="title">Developer & CEO</p>
+                            <p>neustroev.leonid@mail.ru</p>
+                            <p><button class="button" button onclick="window.location.href = 'https://www.instagram.com/neustroev_leo_/';">Contact me on Instagram</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="IMG_1850.jpg" alt="Leonid" style="width:100%">
+                        <div class="container">
+                            <h2>Leonid Neustroev</h2>
+                            <p class="title">Developer & CEO</p>
+                            <p>neustroev.leonid@mail.ru</p>
+                            <p><button class="button" button onclick="window.location.href = 'https://vk.com/id122874880/';">Contact me on VK</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="IMG_2441.jpg" alt="Leonid" style="width:100%">
+                        <div class="container">
+                            <h2>Leonid Neustroev</h2>
+                            <p class="title">Developer & CEO</p>
+                            <p>neustroev.leonid@mail.ru</p>
+                            <p><button class="button" button onclick="window.location.href = 'https://api.whatsapp.com/send?phone=79266607505';">Contact me on WhatsApp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div style="height:150px;opacity: 100%"></div>
+    <div style="position:relative">
+        <div style="position:absolute; bottom:0px; width:100%;opacity: 100%"></div>
+    </div>
+</div>
+</body>
+</html>

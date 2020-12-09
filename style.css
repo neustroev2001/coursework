@@ -1,0 +1,290 @@
+
+#wrapper {
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+body{
+overflow-x: hidden;
+}
+
+
+
+.header {
+    background-color: #0e0b17;
+    background-size: 100%;
+    padding: 5px;
+    height: 75px;
+    display: block;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.header33333 {
+background-color: #0e0b17;
+background-size:100%;
+padding: 5px;
+height: 75px;
+    position: fixed;
+z-index: 99999;
+}
+
+.headertext1{
+font-size:30px;
+font-family:Impact Black;
+color: white;
+margin-top: 5px;
+
+}
+
+.headertext2{
+font-size:30px;
+font-family: Tempus Sans ITC Black;
+color: whitesmoke;
+    margin-top: 20px;
+
+
+}
+
+.headertext3{
+font-size:15px;
+font-family: Segoe Script Black;
+color: antiquewhite;
+margin-top:-35px;
+margin-left:1100px;
+
+}
+
+.text1{
+font-size:15px;
+font-family: Segoe Script Black;
+color: antiquewhite;
+margin-top:-35px;
+margin-left:1400px;
+}
+
+.box {
+width: 1200px;
+margin: 25px 250px 25px;
+position: relative;
+overflow: hidden;
+overflow: hidden;
+z-index: -1;
+}
+
+.text {
+position: absolute;
+left: 200px;
+top: 40%;
+text-align: center;
+}
+
+.text h2 {
+color: white;
+display: inline-block;
+line-height: 75px;
+font-weight: 400;
+text-transform: uppercase;
+border-width: 2px 0;
+border-color: rgba(255,255,255,0.5);
+border-style: solid;
+opacity: 1;
+}
+
+.box:hover:before {
+opacity: 0;
+}
+
+.box-inner img:hover .text h2 {
+opacity: 1;
+}
+
+p{
+font-family: Vernada;
+font-size: 22px;
+margin-top: 100px;
+}
+
+h2{
+font-family: Franklin Gothic Heavy;
+font-size: 26px;
+margin-left: 20px;
+}
+
+.video{
+margin: 0px 20px 0px 20px;
+float: left;
+}
+
+.left img{
+width:260px;
+height:375px;
+float: left;
+margin: 15px 40px 5px 30px;
+}
+
+.left img:hover {
+-webkit-transform: rotateZ(10deg);
+-ms-transform: rotateZ(10deg);
+transform: rotateZ(10deg);
+}
+
+.right img{
+width:260px;
+height:375px;
+float: right;
+margin: 15px 30px 5px 40px;
+}
+
+.right img:hover {
+-webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+transform: rotateZ(-10deg);
+}
+
+.texthero{
+font-family: Vernada;
+font-size: 22px;
+margin-left: 10px;
+}
+
+.button{
+margin: 0px 20px 0px 20px;
+}
+
+hr{
+border: none;
+background-color: white;
+height: 0.5px;
+margin: 10px;
+}
+
+*{
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+
+
+@media screen and (max-width: 64rem){
+.col{
+width: calc(33.333333% - 2rem);
+}
+}
+
+
+
+p a{
+font-size:20px;
+font-family:Cooper;
+font-weight: bold;
+color: ghostwhite;
+}
+
+
+
+
+
+
+.z {
+    text-align: center;
+      font-family: "Comic Sans MS";
+      font-size: 20px;
+      color: ghostwhite;
+    margin-top: auto;
+
+}
+
+.center {
+    width: 1000px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    background: #FFFFFF; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+
+   }
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+blockquote {
+margin: 0;
+background: white;
+color: #3A3C55;
+padding: 30px 30px 30px 90px;
+position: relative;
+font-family: "Comic Sans MS";
+font-weight: 300;
+    margin-top: 20px;
+}
+blockquote:before {
+content: "\201C";
+font-family: "Comic Sans MS";
+position: absolute;
+left: 20px;
+top: 20px;
+color: white;
+background: darkred;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+font-size: 50px;
+line-height: 1.35;
+text-align: center;
+}
+blockquote p {
+margin: 0 0 16px;
+font-size: 22px;
+letter-spacing: .05em;
+line-height: 1.4;
+}
+blockquote cite {
+font-style: normal;
+}
+.dropdown {
+    font-family: Tempus Sans ITC Black;
+color: whitesmoke;
+}
+.background {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.driver {
+text-align: center;
+    font-family: "Tempus Sans ITC";
+    color: whitesmoke;
+    font-size:50px;
+}
+.navigation{
+    top: 0;
+    transition-duration: 0.5s;
+}
+.products {
+display: grid;
+grid-template-columns: repeat(10, 10%);
+grid-template-rows: 50% 50%;
+grid-row-gap: 1%;
+margin-bottom: 5%;
+}

@@ -1,0 +1,59 @@
+.form {
+  width: 400px;
+  position: fixed;
+ top: 50%;
+ left: 50%;
+ margin-top: -250px;
+ margin-left: -200px;
+    font-family: "Franklin Gothic";
+    font-size: 15px;
+    color: whitesmoke;
+  }
+
+.caption {
+    font-size: 30px;
+    text-align: center;
+      font-family: "Comic Sans MS";
+      font-size: 55px;
+      color: ghostwhite;
+
+
+  }
+
+.form .infofield {
+    margin-top: 10px;
+    font-weight: bold;
+      color: whitesmoke;
+      font-family: "Franklin Gothic";
+      font-size: 15px;
+  }
+
+.form select, .form input, .form textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 15px;
+      font-family: "Comic Sans MS";
+      font-size: 15px;
+  }
+
+.overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.parallax_inner {
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	min-height:250px;
+}
+
+.buttonrent {
+    position: absolute;
+    bottom: -20px;
+    left:50px;
+    width: 300px;
+    height: 20px;
+}
